@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <label for="check_value">Nhập giá trị cần kiểm tra:</label>
             <input type="number" id="check_value" name="check_value" value="<?php echo isset($_POST['check_value']) ? $_POST['check_value'] : ''; ?>">
             <br><br>
-            <input type="submit" value="Xử lý mảng">
+        <input class="btn" type="submit"  value="Xử lý mảng" style="padding: 6px;">  
         </form>
 
         <?php if (!empty($array)): ?>
